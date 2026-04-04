@@ -1,0 +1,21 @@
+Route_State,Total Shipments,Avg Lead Time,Lead Time Variability,Total Sales,Total Profit
+Sugar Shack-->Gulf,4,1091.25,210.45,38.39,23.24
+The Other Factory-->Interior,11,1206.64,274.43,126.75,9.75
+The Other Factory-->Gulf,19,1272.63,272.73,262.5,26.5
+The Other Factory-->Atlantic,38,1282.74,262.17,506.75,54.75
+Secret Factory-->Interior,45,1289.09,311.23,1590.0,806.8
+The Other Factory-->Pacific,32,1307.22,251.42,386.25,61.25
+Secret Factory-->Pacific,63,1307.73,276.18,3076.25,1558.05
+Wicked Choccy's-->Gulf,663,1309.11,259.9,8993.25,5857.51
+Lot's O' Nuts-->Gulf,897,1313.98,266.59,12023.12,8313.42
+Wicked Choccy's-->Atlantic,1197,1315.97,255.39,15414.5,10039.66
+Lot's O' Nuts-->Pacific,1813,1317.53,266.67,24294.04,16788.44
+Sugar Shack-->Interior,8,1318.62,235.26,44.74,23.39
+Lot's O' Nuts-->Interior,1321,1324.2,258.41,17856.86,12353.56
+Wicked Choccy's-->Interior,950,1324.55,266.33,12419.25,8088.99
+Lot's O' Nuts-->Atlantic,1661,1326.83,255.99,22166.13,15315.63
+Wicked Choccy's-->Pacific,1342,1329.1,266.22,18525.75,12067.41
+Secret Factory-->Gulf,37,1332.54,304.83,930.0,480.0
+Secret Factory-->Atlantic,72,1349.25,280.72,2991.25,1499.85
+Sugar Shack-->Atlantic,18,1375.39,274.61,118.61,63.81
+Sugar Shack-->Pacific,3,1516.67,210.16,19.24,10.79
