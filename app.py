@@ -240,8 +240,8 @@ COLORS = ["#7c83fd","#a78bfa","#f472b6","#fb923c","#34d399","#60a5fa","#fbbf24",
 # SIDEBAR – ENHANCED with MULTISELECT
 # ─────────────────────────────────────────────
 with st.sidebar:
-    st.markdown('<div class="sidebar-title">🍬 Nassau Candy</div>', unsafe_allow_html=True)
-    st.markdown("**Shipping Route Intelligence**")
+    st.markdown('<div class="sidebar-title">🍬 Nassau Candy Logistics</div>', unsafe_allow_html=True)
+    st.markdown("**Shipping Route Intelligence Platform**")
     st.markdown("---")
 
     st.markdown("### 🎛️ Advanced Filters")
