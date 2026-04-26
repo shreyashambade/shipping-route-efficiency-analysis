@@ -9,7 +9,7 @@ import os
 # ─────────────────────────────────────────────
 # Resolve data directory (works wherever you run from)
 # ─────────────────────────────────────────────
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # ─────────────────────────────────────────────
 # Page Config
@@ -197,7 +197,7 @@ STATE_ABBREV = {
 # ─────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv(os.path.join(BASE_DIR, "nassau_final.csv"))
+    df = pd.read_csv(os.path.join(BASE_DIR,"data", "nassau_final.csv"))
     df["Order Date"] = pd.to_datetime(df["Order Date"])
     df["Ship Date"]  = pd.to_datetime(df["Ship Date"])
     df["State_Abbrev"] = df["State/Province"].map(STATE_ABBREV)
@@ -210,15 +210,15 @@ def load_data():
 
 @st.cache_data
 def load_route_region():
-    return pd.read_csv(os.path.join(BASE_DIR, "nassau_route_region.csv"))
+    return pd.read_csv(os.path.join(BASE_DIR,"data" ,"nassau_route_region.csv"))
 
 @st.cache_data
 def load_route_states():
-    return pd.read_csv(os.path.join(BASE_DIR, "nassau_route_states.csv"))
+    return pd.read_csv(os.path.join(BASE_DIR,"data", "nassau_route_states.csv"))
 
 @st.cache_data
 def load_ship_mode():
-    return pd.read_csv(os.path.join(BASE_DIR, "ship_mode_group.csv"))
+    return pd.read_csv(os.path.join(BASE_DIR,"data","ship_mode_group.csv"))
 
 df_full   = load_data()
 rr        = load_route_region()
